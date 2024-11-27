@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="card">
+            <div class="card-top">
+                <h2 class="title">CADASTRE-SE</h2>
+                <p>Crie sua conta</p>
+            </div>
+
+            <form action="cadastro.php" method="POST" id="signupForm">
+                <div class="card-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu Nome" required>
+                </div>
+
+                <div class="card-group">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Digite seu Usuário" required>
+                </div>
+
+                <div class="card-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" required>
+                </div>
+
+                <div class="card-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required>
+                </div>
+
+                <div class="card-group">
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

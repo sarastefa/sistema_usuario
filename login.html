@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="form">
+        <div class="card">
+            <div class="card-top">
+                <h2 class="title">LOGIN</h2>
+                <p>Seja Bem Vindo!</p>
+            </div>
+
+            <form action="login.php" method="POST" id="loginForm">
+                <div class="card-group">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Digite seu Usuário" required>
+                </div>
+
+                <div class="card-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua Senha" required>
+                </div>
+
+                <div class="card-group">
+                    <label><input type="checkbox" name="lembrar"> Lembre-me</label>
+                </div>
+
+                <div class="card-group">
+                    <button type="submit">ACESSAR</button>
+                </div>
+
+                <div class="card-group">
+                    <p>Ainda não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
